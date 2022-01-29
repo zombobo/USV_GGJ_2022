@@ -59,8 +59,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-USV_GGJ_2022/Temp
-USV_GGJ_2022/Logs
-USV_GGJ_2022/.vsconfig
-USV_GGJ_2022/UserSettings/EditorUserSettings.asset
+USV_GGJ_2022_2D/Temp
+USV_GGJ_2022_2D/Logs
+USV_GGJ_2022_2D/.vsconfig
+USV_GGJ_2022_2D/UserSettings/EditorUserSettings.asset
 *.cache
