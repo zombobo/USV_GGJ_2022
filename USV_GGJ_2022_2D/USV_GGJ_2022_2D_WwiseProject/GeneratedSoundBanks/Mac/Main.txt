@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1659934393	Play_zombie_breath			\Default Work Unit\Play_zombie_breath	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	615938107	zombie_breath2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\zombie_breath2_356ABC16.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Virtual Folder\zombie_breath2		1091192
+

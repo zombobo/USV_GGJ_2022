@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="New Virtual Folder" ID="{29B2B215-9716-4891-A35A-90F18103C8D1}" ShortID="484669710">
+					<ChildrenList>
+						<Sound Name="zombie_breath2" ID="{8D89BC9D-2E22-4F60-900F-5DEB8C803753}" ShortID="272917605">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zombie_breath2" ID="{D16E0FD5-D504-41A6-A91A-BCE3FCD533C2}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.232190029895219"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.232190029895219"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>zombie_breath2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="615938107"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="zombie_breath2" ID="{D16E0FD5-D504-41A6-A91A-BCE3FCD533C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
