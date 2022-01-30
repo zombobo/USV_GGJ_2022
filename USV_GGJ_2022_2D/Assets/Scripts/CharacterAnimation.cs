@@ -21,4 +21,4 @@ public class CharacterAnimation : MonoBehaviour
         float speed = mover.vSpeed;
         animator.SetFloat("Speed", Mathf.Abs(speed));
     }
-}
+ }
