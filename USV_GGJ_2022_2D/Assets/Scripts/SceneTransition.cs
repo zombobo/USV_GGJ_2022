@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Flag : MonoBehaviour
+public class SceneTransition : MonoBehaviour
 {
     [SerializeField] string _sceneName;
 
