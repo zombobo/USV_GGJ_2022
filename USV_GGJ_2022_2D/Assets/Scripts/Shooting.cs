@@ -8,10 +8,15 @@ public class Shooting : MonoBehaviour
     [SerializeField]
     public Vector3 clickPosition;
     public GameObject projectile;
-    public Camera playerCamera;
+    Camera playerCamera;
 
     [Header("Wwise Events")]
     public AK.Wwise.Event playerShoot;
+
+    private void Start()
+    {
+        playerCamera = Camera.main;
+    }
 
     // Update is called once per frame
     void Update()

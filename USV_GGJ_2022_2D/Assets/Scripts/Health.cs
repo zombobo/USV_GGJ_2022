@@ -24,4 +24,24 @@ public class Health : MonoBehaviour
             Debug.Log("current health: " + CurrentHealth);
         }
     }
+
+    public void TakeDamage(int damage)
+    {
+       CurrentHealth -= damage;
+
+        //play hurt animation
+
+        if (CurrentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("Died");
+        GetComponent<Health>().CurrentHealth = 0;
+        Destroy(gameObject);
+        //play die animation
+    }
 }
