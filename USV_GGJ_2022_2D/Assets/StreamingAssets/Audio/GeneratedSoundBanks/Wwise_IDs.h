@@ -13,9 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_CASUALLEVEL = 4288820973U;
-        static const AkUniqueID PLAY_GRUNT_SFX = 3005263932U;
-        static const AkUniqueID PLAY_PLAYER_SFX = 1581497221U;
+        static const AkUniqueID PLAY_CASUALLEVEL_MUSIC = 2114793129U;
+        static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
+        static const AkUniqueID PLAY_ZOMBIE_BREATH = 1659934393U;
     } // namespace EVENTS
 
     namespace BANKS

@@ -16,12 +16,12 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3129158441">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3120704347">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4288820973" Name="Play_casualLevel" ObjectPath="\Events\Default Work Unit\Play_casualLevel" DurationType="Infinite">
+				<Event Id="2114793129" Name="Play_casualLevel_Music" ObjectPath="\Events\Default Work Unit\Play_casualLevel_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="233224724" Language="SFX">
 							<ShortName>casualLevel_Music.1d.wav</ShortName>
@@ -29,39 +29,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3005263932" Name="Play_Grunt_SFX" ObjectPath="\Events\Default Work Unit\Play_Grunt_SFX" DurationType="Infinite">
+				<Event Id="2228153899" Name="Play_Menu_music" ObjectPath="\Events\Default Work Unit\Play_Menu_music" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="164304964" Language="SFX">
-							<ShortName>underling_SFX2.wav</ShortName>
-							<Path>SFX/underling_SFX2_10C4C929.wem</Path>
-						</File>
-						<File Id="268437847" Language="SFX">
-							<ShortName>underling_SFX4.wav</ShortName>
-							<Path>SFX/underling_SFX4_10C4C929.wem</Path>
-						</File>
-						<File Id="571680982" Language="SFX">
-							<ShortName>underling_SFX5.wav</ShortName>
-							<Path>SFX/underling_SFX5_10C4C929.wem</Path>
-						</File>
-						<File Id="624292003" Language="SFX">
-							<ShortName>underling_SFX3.wav</ShortName>
-							<Path>SFX/underling_SFX3_10C4C929.wem</Path>
-						</File>
-						<File Id="988431473" Language="SFX">
-							<ShortName>Grunt_SFX.wav</ShortName>
-							<Path>SFX/Grunt_SFX_C5579977.wem</Path>
+						<File Id="181517514" Language="SFX">
+							<ShortName>Menu_music.wav</ShortName>
+							<Path>SFX/Menu_music_0ECAA121.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1581497221" Name="Play_Player_SFX" ObjectPath="\Events\Default Work Unit\Play_Player_SFX" DurationType="OneShot" DurationMin="1.448866" DurationMax="2.290137">
+				<Event Id="1659934393" Name="Play_zombie_breath" ObjectPath="\Events\Default Work Unit\Play_zombie_breath" DurationType="OneShot" DurationMin="1.661056" DurationMax="2.290137">
 					<IncludedMemoryFiles>
-						<File Id="157262434" Language="SFX">
-							<ShortName>zombie_growl2.wav</ShortName>
-							<Path>SFX/zombie_growl2_03651007.wem</Path>
-						</File>
 						<File Id="615938107" Language="SFX">
 							<ShortName>zombie_breath2.wav</ShortName>
-							<Path>SFX/zombie_breath2_5044C884.wem</Path>
+							<Path>SFX/zombie_breath2_EA70C0F9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
