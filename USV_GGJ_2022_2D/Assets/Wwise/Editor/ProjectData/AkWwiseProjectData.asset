@@ -24,11 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6d03069942b32944a735eb95fc741593
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585581087159994017
-=======
     m_lastTime: -8585581087994775808
->>>>>>> Stashed changes
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -42,11 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 9fe8363a0829364d9731175295983dbe
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585581087160144183
-=======
     m_lastTime: -8585581087994775808
->>>>>>> Stashed changes
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -74,8 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 68d51ae0f00d60489ded1ba467128af6
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585581081335034333
+    m_lastTime: -8585581058614775808
     List:
     - name: Main
       guid: 0004f707e700324b908bcbac84d3a4d3
@@ -91,10 +82,6 @@ MonoBehaviour:
         ObjectType: 7
         guid: 0004f707e700324b908bcbac84d3a4d3
       Path: SoundBanks\Default Work Unit\Main
-=======
-    m_lastTime: -8585581087994775808
-    List: []
->>>>>>> Stashed changes
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -107,8 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f2c8f44034ce474b8e91ec692ca93274
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585581081336085285
+    m_lastTime: -8585581058634775808
     List:
     - name: Play_zombie_breath
       guid: 7d952a53d7f7c949a521a49d60e542cc
@@ -127,10 +113,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 6.185543
       minDuration: 6.185543
-=======
-    m_lastTime: -8585581087994775808
-    List: []
->>>>>>> Stashed changes
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -143,11 +125,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d1a5e816706dfe429f8aab83d2870573
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585581087160154192
-=======
     m_lastTime: -8585581087994775808
->>>>>>> Stashed changes
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -161,11 +139,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: b144245107149f49931ab5cbaa25d1c2
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585581087160064115
-=======
     m_lastTime: -8585581087994775808
->>>>>>> Stashed changes
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -179,11 +153,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5c355ef3ca5e87459aed52a2d2e1ca01
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585581087160054105
-=======
     m_lastTime: -8585581087994775808
->>>>>>> Stashed changes
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -197,11 +167,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: a071e71f69917c4bab9ac6f1f6a84aea
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585581087160054105
-=======
     m_lastTime: -8585581087994775808
->>>>>>> Stashed changes
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
