@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 450708505}
   - component: {fileID: 450708504}
   - component: {fileID: 450708503}
+  - component: {fileID: 450708506}
   - component: {fileID: 450708502}
   m_Layer: 0
   m_Name: Grunt_Alpha_Front_0
@@ -235,6 +236,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &450708506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450708501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19d1f34817834642a62017be9319d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 0}
+  moveSpeed: 1
+  maxShootDist: 5
+  minFollowDist: 2
+  shootWaitTime: 2
+  shootTimer: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +378,7 @@ GameObject:
   - component: {fileID: 829894119}
   - component: {fileID: 829894121}
   - component: {fileID: 829894122}
+  - component: {fileID: 829894125}
   - component: {fileID: 829894118}
   - component: {fileID: 829894124}
   - component: {fileID: 829894123}
@@ -516,6 +536,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   animator: {fileID: 829894118}
+--- !u!114 &829894125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829894117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e487c06f6a6a4196a0aa58fb4694021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickPosition: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 4422346792414359217, guid: 1ab501954947d4b92ab1cad2c847d0fb, type: 3}
+  playerCamera: {fileID: 519420031}
 --- !u!1 &1024947184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,10 +1887,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1251875304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b0fc5039776bae4090d2bdca63cf912, type: 3}
+  m_Script: {fileID: 11500000, guid: 07d3bf4c5d8704f8dae75c57ce91da4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneName: Scene2
+  _sceneName: Level2
 --- !u!212 &1251875307
 SpriteRenderer:
   m_ObjectHideFlags: 0
