@@ -583,6 +583,36 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Elevator_music" ID="{AEAC9DD6-46A7-4F61-AEA3-ABE675A5B0E6}" ShortID="632054173">
+					<ChildrenList>
+						<Sound Name="elevator_music" ID="{63845CC5-AC9D-44A5-8154-9517B3A6FDA5}" ShortID="613716988">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="elevator_music" ID="{A5D8A5F5-C765-48EF-A19C-F0E62EA8C2C9}">
+									<Language>SFX</Language>
+									<AudioFile>elevator_music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="600246087"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="elevator_music" ID="{A5D8A5F5-C765-48EF-A19C-F0E62EA8C2C9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

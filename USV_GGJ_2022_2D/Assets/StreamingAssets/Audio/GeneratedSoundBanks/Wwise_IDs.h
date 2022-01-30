@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_BOSSLEVEL_MUSIC = 2598486793U;
         static const AkUniqueID PLAY_CASUALLEVEL_MUSIC = 2114793129U;
+        static const AkUniqueID PLAY_ELEVATOR_MUSIC = 3165054544U;
         static const AkUniqueID PLAY_ENEMYPOOF = 1408360690U;
         static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
         static const AkUniqueID PLAY_PLAYER_SFX = 1581497221U;

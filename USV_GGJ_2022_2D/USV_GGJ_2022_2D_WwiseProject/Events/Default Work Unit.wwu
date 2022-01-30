@@ -69,6 +69,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_elevator_music" ID="{B5F18191-C6CE-481D-8E9B-ADC51327C473}">
+					<ChildrenList>
+						<Action Name="" ID="{BA040EAF-6A79-4E51-8249-D0B45ED1AF25}" ShortID="203292023">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="elevator_music" ID="{63845CC5-AC9D-44A5-8154-9517B3A6FDA5}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

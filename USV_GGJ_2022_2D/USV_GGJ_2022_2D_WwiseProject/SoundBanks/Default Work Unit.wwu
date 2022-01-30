@@ -6,6 +6,7 @@
 				<SoundBank Name="Main" ID="{07F70400-00E7-4B32-908B-CBAC84D3A4D3}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Player_SFX" ID="{3B8967FC-3AF8-42DD-ABEE-74619E8AB7F8}" WorkUnitID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_elevator_music" ID="{B5F18191-C6CE-481D-8E9B-ADC51327C473}" WorkUnitID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_casualLevel_Music" ID="{3588AE31-65B8-49F4-B5A0-B625B74E544E}" WorkUnitID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_bossLevel_Music" ID="{81F8BD02-F843-4A3F-B931-609B42603EBC}" WorkUnitID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_enemyPOOF" ID="{77C6F6FF-F1EE-4A53-BD27-E8409FBB3882}" WorkUnitID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" Origin="Manual" Filter="7"/>

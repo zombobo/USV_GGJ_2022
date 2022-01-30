@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2114793129	Play_casualLevel_Music			\Default Work Unit\Play_casualLevel_Music	
 	2228153899	Play_Menu_music			\Default Work Unit\Play_Menu_music	
 	2598486793	Play_bossLevel_Music			\Default Work Unit\Play_bossLevel_Music	
+	3165054544	Play_elevator_music			\Default Work Unit\Play_elevator_music	
 	3169510350	Play_PlayerShoot			\Default Work Unit\Play_PlayerShoot	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -12,6 +13,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	181517514	Menu_music	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\Menu_music_480D60A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu_Music\Menu_music		3387024
 	222216387	shoot2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\shoot2_19E87808.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerShoot\PlayerShoot\shoot2		19776
 	529537186	enemyPOOF	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\enemyPOOF_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy_Death\enemyPOOF		70820
+	600246087	elevator_music	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\elevator_music_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Elevator_music\elevator_music		2319924
 	615938107	zombie_breath2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\zombie_breath2_EA70C0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_SFX\Player_SFX\zombie_breath2		344116
 	741092797	shoot3	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\shoot3_6C89F805.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerShoot\PlayerShoot\shoot3		21120
 	754728183	shoot1	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\shoot1_3CD27D24.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerShoot\PlayerShoot\shoot1		19072
