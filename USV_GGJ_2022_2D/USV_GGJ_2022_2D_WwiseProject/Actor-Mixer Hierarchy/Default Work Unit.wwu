@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Player_SFX" ID="{F5BDDD95-B198-4759-9834-DCACBAF9819A}" ShortID="820980183">
 							<PropertyList>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -118,6 +119,11 @@
 						<Sound Name="casualLevel_Music_1d" ID="{F33F4DC8-C15B-49F7-8999-C7493746DEA0}" ShortID="451717661">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -415,6 +421,11 @@
 						<Sound Name="bossLevel_Music_1c" ID="{2B95C4B5-1139-4A87-B5A2-A4D010476D32}" ShortID="226342412">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

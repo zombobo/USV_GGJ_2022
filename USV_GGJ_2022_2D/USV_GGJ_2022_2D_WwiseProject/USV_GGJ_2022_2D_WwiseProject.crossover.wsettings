@@ -5,8 +5,10 @@
 			<PropertyList>
 				<Property Name="Event Action List\{2B780843-12F4-4DC7-A23D-C320119BD9E1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3588AE31-65B8-49F4-B5A0-B625B74E544E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3B8967FC-3AF8-42DD-ABEE-74619E8AB7F8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{47180D9E-33F5-4424-A405-DFB38A9CC18C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{532A957D-F7D7-49C9-A521-A49D60E542CC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{77C6F6FF-F1EE-4A53-BD27-E8409FBB3882}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{81F8BD02-F843-4A3F-B931-609B42603EBC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D13C4D25-7D86-4F45-9538-0544513826D7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D41233C8-1D24-45CA-8B08-3F830F1E6741}\x64_Expand States" Type="string" Value=""/>
