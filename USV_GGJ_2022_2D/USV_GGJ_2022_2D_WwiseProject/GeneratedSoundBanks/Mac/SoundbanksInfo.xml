@@ -16,11 +16,19 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3500875194">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2176073771">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2598486793" Name="Play_bossLevel_Music" ObjectPath="\Events\Default Work Unit\Play_bossLevel_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="373276005" Language="SFX">
+							<ShortName>bossLevel_Music.1c.wav</ShortName>
+							<Path>SFX/bossLevel_Music.1c_C5579977.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2114793129" Name="Play_casualLevel_Music" ObjectPath="\Events\Default Work Unit\Play_casualLevel_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="233224724" Language="SFX">
@@ -29,16 +37,28 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1408360690" Name="Play_enemyPOOF" ObjectPath="\Events\Default Work Unit\Play_enemyPOOF" DurationType="OneShot" DurationMin="0.401111" DurationMax="0.401111">
+					<IncludedMemoryFiles>
+						<File Id="529537186" Language="SFX">
+							<ShortName>enemyPOOF.wav</ShortName>
+							<Path>SFX/enemyPOOF_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2228153899" Name="Play_Menu_music" ObjectPath="\Events\Default Work Unit\Play_Menu_music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="181517514" Language="SFX">
 							<ShortName>Menu_music.wav</ShortName>
-							<Path>SFX/Menu_music_480D60A8.wem</Path>
+							<Path>SFX/Menu_music_0ECAA121.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1659934393" Name="Play_zombie_breath" ObjectPath="\Events\Default Work Unit\Play_zombie_breath" DurationType="OneShot" DurationMin="1.661056" DurationMax="2.290137">
+				<Event Id="1581497221" Name="Play_Player_SFX" ObjectPath="\Events\Default Work Unit\Play_Player_SFX" DurationType="OneShot" DurationMin="1.448866" DurationMax="2.290137">
 					<IncludedMemoryFiles>
+						<File Id="157262434" Language="SFX">
+							<ShortName>zombie_growl2.wav</ShortName>
+							<Path>SFX/zombie_growl2_E3BFE644.wem</Path>
+						</File>
 						<File Id="615938107" Language="SFX">
 							<ShortName>zombie_breath2.wav</ShortName>
 							<Path>SFX/zombie_breath2_EA70C0F9.wem</Path>

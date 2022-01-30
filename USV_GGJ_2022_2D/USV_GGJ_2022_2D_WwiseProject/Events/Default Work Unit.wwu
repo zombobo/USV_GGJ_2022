@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_zombie_breath" ID="{532A957D-F7D7-49C9-A521-A49D60E542CC}">
-					<ChildrenList>
-						<Action Name="" ID="{5E27C8D9-E15F-4D83-A0EA-6D2216E50DCC}" ShortID="161408842">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="zombie_breath2" ID="{8D89BC9D-2E22-4F60-900F-5DEB8C803753}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Menu_music" ID="{2B780843-12F4-4DC7-A23D-C320119BD9E1}">
 					<ChildrenList>
 						<Action Name="" ID="{C161AD69-67A1-4C38-BED4-4F134D05E23D}" ShortID="481675235">
@@ -42,6 +31,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="bossLevel_Music_1c" ID="{2B95C4B5-1139-4A87-B5A2-A4D010476D32}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_SFX" ID="{3B8967FC-3AF8-42DD-ABEE-74619E8AB7F8}">
+					<ChildrenList>
+						<Action Name="" ID="{1CF30D8B-4AB0-4CD4-B34A-8C2236C1419B}" ShortID="229515496">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_SFX" ID="{F5BDDD95-B198-4759-9834-DCACBAF9819A}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_enemyPOOF" ID="{77C6F6FF-F1EE-4A53-BD27-E8409FBB3882}">
+					<ChildrenList>
+						<Action Name="" ID="{E219CA2F-BC37-4CE9-AD6E-7FA91B9E9C42}" ShortID="860513419">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemyPOOF" ID="{4E733B19-842C-4539-93D2-DE3A65AD4DE2}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
