@@ -10,6 +10,7 @@
 						<ObjectRef Name="Play_bossLevel_Music" ID="{81F8BD02-F843-4A3F-B931-609B42603EBC}" WorkUnitID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_enemyPOOF" ID="{77C6F6FF-F1EE-4A53-BD27-E8409FBB3882}" WorkUnitID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Menu_music" ID="{2B780843-12F4-4DC7-A23D-C320119BD9E1}" WorkUnitID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlayerShoot" ID="{1FDFB9FD-4845-4EA4-A220-39EFC4F7E737}" WorkUnitID="{40F4C8F2-CE34-4B47-8E91-EC692CA93274}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

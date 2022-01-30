@@ -19,7 +19,7 @@
 						<Action Name="" ID="{7D77FE5E-E492-46F7-A156-A5DF9DBE807D}" ShortID="932678460">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="casualLevel_Music_1d" ID="{F33F4DC8-C15B-49F7-8999-C7493746DEA0}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
+									<ObjectRef Name="casual_music" ID="{1C6B7680-32F2-4F08-A190-B2BA3AC7B080}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -30,7 +30,7 @@
 						<Action Name="" ID="{6956D8D4-1A19-4CAF-AF51-A70790079D6E}" ShortID="170688501">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="bossLevel_Music_1c" ID="{2B95C4B5-1139-4A87-B5A2-A4D010476D32}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
+									<ObjectRef Name="boss_music" ID="{D7526B7E-3B88-4C3C-894F-BCF089B7BCB1}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
