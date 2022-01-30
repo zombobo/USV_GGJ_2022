@@ -16,16 +16,16 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3409890682">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2462205551">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1659934393" Name="Play_zombie_breath" ObjectPath="\Events\Default Work Unit\Play_zombie_breath" DurationType="OneShot" DurationMin="1.661056" DurationMax="2.290137">
+				<Event Id="1659934393" Name="Play_zombie_breath" ObjectPath="\Events\Default Work Unit\Play_zombie_breath" DurationType="OneShot" DurationMin="6.185543" DurationMax="6.185543">
 					<IncludedMemoryFiles>
 						<File Id="615938107" Language="SFX">
 							<ShortName>zombie_breath2.wav</ShortName>
-							<Path>SFX/zombie_breath2_EA70C0F9.wem</Path>
+							<Path>SFX/zombie_breath2_356ABC16.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -3,10 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{41EBC447-9585-4E5B-8DF7-798EECE897F1}">
 			<PropertyList>
-				<Property Name="Event Action List\{47180D9E-33F5-4424-A405-DFB38A9CC18C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{532A957D-F7D7-49C9-A521-A49D60E542CC}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="Event Action List\{D13C4D25-7D86-4F45-9538-0544513826D7}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="Event Action List\{D41233C8-1D24-45CA-8B08-3F830F1E6741}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
@@ -19,18 +16,13 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
-				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="/pTA5RIOrEG6EmPKaXmlTlP08pMdFfhHrqNij+jmGpw="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="AAT3B+cAMkuQi8ushNOk0w=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="Interactive Music\x64_{8EB9F466-F771-4246-9A59-13EF65FA58D1} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP0xxZB5bABZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAACJA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
-				<Property Name="Music Transition List\{2AB4763A-7420-4181-BD0B-E6E91F637A5C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
