@@ -23,9 +23,9 @@ public class LaunchMe : MonoBehaviour
         transform.position += clickPos * Time.deltaTime * speed;
   
     }
-    void OnCollisionEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-      if (collision.CompareTag("Bounds")){
+      if (collision.collider.CompareTag("Bounds")){
             Destroy(this.gameObject);
         }
     }
