@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 68d51ae0f00d60489ded1ba467128af6
     GuidInternal: 
-    m_lastTime: -8585581058614775808
+    m_lastTime: -8585580750974775808
     List:
     - name: Main
       guid: 0004f707e700324b908bcbac84d3a4d3
@@ -94,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f2c8f44034ce474b8e91ec692ca93274
     GuidInternal: 
-    m_lastTime: -8585581058634775808
+    m_lastTime: -8585580750974775808
     List:
+    - name: Play_bossLevel_Music
+      guid: 02bdf88143f83f4ab931609b42603ebc
+      id: 2598486793
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f2c8f44034ce474b8e91ec692ca93274
+      - ElementName: Play_bossLevel_Music
+        ObjectType: 3
+        guid: 02bdf88143f83f4ab931609b42603ebc
+      Path: Events\Default Work Unit\Play_bossLevel_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_casualLevel_Music
+      guid: 31ae8835b865f449b5a0b625b74e544e
+      id: 2114793129
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f2c8f44034ce474b8e91ec692ca93274
+      - ElementName: Play_casualLevel_Music
+        ObjectType: 3
+        guid: 31ae8835b865f449b5a0b625b74e544e
+      Path: Events\Default Work Unit\Play_casualLevel_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Menu_music
+      guid: 4308782bf412c74da23dc320119bd9e1
+      id: 2228153899
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f2c8f44034ce474b8e91ec692ca93274
+      - ElementName: Play_Menu_music
+        ObjectType: 3
+        guid: 4308782bf412c74da23dc320119bd9e1
+      Path: Events\Default Work Unit\Play_Menu_music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_zombie_breath
       guid: 7d952a53d7f7c949a521a49d60e542cc
       id: 1659934393
@@ -111,8 +162,8 @@ MonoBehaviour:
         guid: 7d952a53d7f7c949a521a49d60e542cc
       Path: Events\Default Work Unit\Play_zombie_breath
       maxAttenuation: 0
-      maxDuration: 6.185543
-      minDuration: 6.185543
+      maxDuration: 2.290137
+      minDuration: 1.661056
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

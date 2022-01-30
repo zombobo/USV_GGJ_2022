@@ -23,8 +23,22 @@ public class ITakeDamage : MonoBehaviour
         }
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+
+        //play hurt animation
+
+        if(currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("Died");
+        Destroy(gameObject);
+        //play die animation
     }
 }
