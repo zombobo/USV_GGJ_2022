@@ -1,17 +1,15 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ITakeDamage : MonoBehaviour
 {
-    [SerializeField] int maxHealth = 100;
-    public int currentHealth;
-    
-
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
+        
+        
     }
 
     // Update is called once per frame
@@ -19,17 +17,18 @@ public class ITakeDamage : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            TakeDamage(20);
+            TakeDamage(1);
+            
         }
     }
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
+        GetComponent<Health>().CurrentHealth -= damage;
 
         //play hurt animation
 
-        if(currentHealth <= 0)
+        if(GetComponent<Health>().CurrentHealth <= 0)
         {
             Die();
         }
@@ -38,6 +37,7 @@ public class ITakeDamage : MonoBehaviour
     void Die()
     {
         Debug.Log("Died");
+        GetComponent<Health>().CurrentHealth = 0;
         Destroy(gameObject);
         //play die animation
     }

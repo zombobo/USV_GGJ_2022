@@ -5,25 +5,27 @@ using UnityEngine.UI;
 
 public class HeartsFillUp : MonoBehaviour
 {
-    public int visibleHearts = 1;
-    // public int health = 1; 
+    int visibleHearts = 4;
+    int health; 
 
     public Image[] heartMeter;
     public Sprite fullHeart;
-    public Sprite emptyHeart; 
+    public Sprite emptyHeart;
 
     // Update is called once per frame
     void Update()
     {
+        health = GetComponent<Health>().CurrentHealth;
         for (int i = 0; i < heartMeter.Length; i++ )
         {
-            //if(i < health)
-            //{
-            //    heartMeter[i].sprite = fullHeart;
-            //}else
-            //{
-            //    heartMeter[i].sprite = emptyHeart;
-            //}
+            if (i < health)
+            {
+                heartMeter[i].sprite = fullHeart;
+            }
+            else
+            {
+                heartMeter[i].sprite = emptyHeart;
+            }
 
             if (i < visibleHearts)
             {
@@ -31,6 +33,11 @@ public class HeartsFillUp : MonoBehaviour
             } else
             {
                 heartMeter[i].enabled = false;
+            }
+
+            if (health == 0)
+            {
+                Destroy(this); 
             }
         }
     }

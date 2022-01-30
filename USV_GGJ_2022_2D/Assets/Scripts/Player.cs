@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] int maxHealth = 100;
+    public int currentHealth;
+
     Rigidbody2D _rigidbody2D;
     Vector3 _startPosition;
 

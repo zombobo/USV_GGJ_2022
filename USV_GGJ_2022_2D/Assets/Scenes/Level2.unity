@@ -1934,6 +1934,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279925398}
   m_CullTransparentMesh: 1
+--- !u!1 &1317102588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7895518050858267234, guid: 4960c0efdb9b35546a3ed6e0a098a888, type: 3}
+  m_PrefabInstance: {fileID: 1335693714292374175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1317102589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317102588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a45b0c429ba14e84e9909c5e943cba56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1317102590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317102588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eb0386959484b5d8ea0bb86a7dd884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 4
 --- !u!1 &1514283518
 GameObject:
   m_ObjectHideFlags: 0
@@ -9883,7 +9913,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1646117302}
   - component: {fileID: 1646117301}
-  - component: {fileID: 1646117303}
   m_Layer: 0
   m_Name: OuterBounds
   m_TagString: Bounds
@@ -9930,18 +9959,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1646117303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646117300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e210c772be5fe4b1aae32784ab8e1712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1647079418
 GameObject:
   m_ObjectHideFlags: 0
@@ -10071,6 +10088,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6610960541073190967, guid: 4960c0efdb9b35546a3ed6e0a098a888, type: 3}
+      propertyPath: visibleHearts
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610960541073190967, guid: 4960c0efdb9b35546a3ed6e0a098a888, type: 3}
       propertyPath: heartMeter.Array.data[0]
       value: 
       objectReference: {fileID: 613860482}
@@ -10090,6 +10111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7895518050858267242, guid: 4960c0efdb9b35546a3ed6e0a098a888, type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 164382513}
     - target: {fileID: 7895518050858267247, guid: 4960c0efdb9b35546a3ed6e0a098a888, type: 3}
       propertyPath: m_RootOrder
       value: 5

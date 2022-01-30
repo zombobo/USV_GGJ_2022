@@ -98,7 +98,6 @@ GameObject:
   - component: {fileID: 7895518050858267242}
   - component: {fileID: 7895518050858267243}
   - component: {fileID: 7895518050858267244}
-  - component: {fileID: 7895518050858267241}
   - component: {fileID: 6610960541073190967}
   m_Layer: 0
   m_Name: Player
@@ -270,18 +269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 606f4b4fde830ed4297045da3ed5cdd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7895518050858267241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7895518050858267234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a45b0c429ba14e84e9909c5e943cba56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
 --- !u!114 &6610960541073190967
@@ -296,7 +283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a4964134b33e446985326f88c776cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visibleHearts: 3
   heartMeter:
   - {fileID: 0}
   - {fileID: 0}
