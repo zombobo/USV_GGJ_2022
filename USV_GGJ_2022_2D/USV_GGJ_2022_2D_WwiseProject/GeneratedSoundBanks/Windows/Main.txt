@@ -4,16 +4,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	2114793129	Play_casualLevel_Music			\Default Work Unit\Play_casualLevel_Music	
 	2228153899	Play_Menu_music			\Default Work Unit\Play_Menu_music	
 	2598486793	Play_bossLevel_Music			\Default Work Unit\Play_bossLevel_Music	
-	3169510350	Play_PlayerShoot			\Default Work Unit\Play_PlayerShoot	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	157262434	zombie_growl2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Windows\SFX\zombie_growl2_E3BFE644.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_SFX\Player_SFX\zombie_growl2		255644
 	181517514	Menu_music	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Windows\SFX\Menu_music_480D60A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu_Music\Menu_music		3387024
-	222216387	shoot2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Windows\SFX\shoot2_17D185B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerShoot\PlayerShoot\shoot2		19776
 	233224724	casualLevel_Music_1d	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Windows\SFX\casualLevel_Music.1d_81238AE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Casual_Music\casualLevel_Music_1d		18627984
 	373276005	bossLevel_Music_1c	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Windows\SFX\bossLevel_Music.1c_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\boss_music\bossLevel_Music_1c		13918828
 	529537186	enemyPOOF	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Windows\SFX\enemyPOOF_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy_Death\enemyPOOF		70820
 	615938107	zombie_breath2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Windows\SFX\zombie_breath2_EA70C0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_SFX\Player_SFX\zombie_breath2		344116
-	741092797	shoot3	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Windows\SFX\shoot3_FDF1635D.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerShoot\PlayerShoot\shoot3		21120
-	754728183	shoot1	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Windows\SFX\shoot1_FF42CF5D.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerShoot\PlayerShoot\shoot1		19072
 
