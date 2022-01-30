@@ -14,13 +14,13 @@ public class Flag : MonoBehaviour
         if (player == null)
             return;
        
-        //StartCoroutine(LoadAfterDelay());
+        StartCoroutine(LoadAfterDelay());
     }
 
-    //IEnumerator LoadAfterDelay()
-   // {
-        //PlayerPrefs.SetInt(_sceneName + "Unlocked", 1);
-       // yield return new WaitForSeconds(1.5f);
-        //SceneManager.LoadScene(_sceneName);
-   // }
+    IEnumerator LoadAfterDelay()
+    {
+        PlayerPrefs.SetInt(_sceneName + "Unlocked", 1);
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(_sceneName);
+    }
 }
