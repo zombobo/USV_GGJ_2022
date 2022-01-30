@@ -4,7 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2228153899	Play_Menu_music			\Default Work Unit\Play_Menu_music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	181517514	Menu_music	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\Menu_music_0ECAA121.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu_Music\Menu_music		3387024
+	181517514	Menu_music	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\Menu_music_480D60A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu_Music\Menu_music		3387024
 	233224724	casualLevel_Music_1d	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\casualLevel_Music.1d_81238AE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Casual_Music\casualLevel_Music_1d		18627984
 	615938107	zombie_breath2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\zombie_breath2_EA70C0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_SFX\Player_SFX\zombie_breath2		344116
 

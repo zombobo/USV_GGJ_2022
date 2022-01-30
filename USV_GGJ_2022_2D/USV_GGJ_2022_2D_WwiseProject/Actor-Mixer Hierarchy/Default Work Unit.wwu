@@ -546,6 +546,11 @@
 						<Sound Name="Menu_music" ID="{7C6D40BF-1F18-4808-AE8F-5EEBB32ED5CD}" ShortID="659407576">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
