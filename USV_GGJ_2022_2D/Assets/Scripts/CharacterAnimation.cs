@@ -11,18 +11,14 @@ public class CharacterAnimation : MonoBehaviour
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
-        mover = GetComponent<IMove>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+      animator = GetComponent<Animator>();
+      spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-   private void Update()
+    private void Update()
     {
         float speed = mover.Speed;
         animator.SetFloat("Speed", Mathf.Abs(speed));
-
-        if (speed != 0)
-            spriteRenderer.flipX = speed > 0;
     }
 }
