@@ -16,27 +16,13 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3792707646">
+		<SoundBank Id="3161908922" Language="SFX" Hash="299403170">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2598486793" Name="Play_bossLevel_Music" ObjectPath="\Events\Default Work Unit\Play_bossLevel_Music" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="373276005" Language="SFX">
-							<ShortName>bossLevel_Music.1c.wav</ShortName>
-							<Path>SFX/bossLevel_Music.1c_C5579977.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2114793129" Name="Play_casualLevel_Music" ObjectPath="\Events\Default Work Unit\Play_casualLevel_Music" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="233224724" Language="SFX">
-							<ShortName>casualLevel_Music.1d.wav</ShortName>
-							<Path>SFX/casualLevel_Music.1d_81238AE1.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="2598486793" Name="Play_bossLevel_Music" ObjectPath="\Events\Default Work Unit\Play_bossLevel_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2114793129" Name="Play_casualLevel_Music" ObjectPath="\Events\Default Work Unit\Play_casualLevel_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1408360690" Name="Play_enemyPOOF" ObjectPath="\Events\Default Work Unit\Play_enemyPOOF" DurationType="OneShot" DurationMin="0.401111" DurationMax="0.401111">
 					<IncludedMemoryFiles>
 						<File Id="529537186" Language="SFX">

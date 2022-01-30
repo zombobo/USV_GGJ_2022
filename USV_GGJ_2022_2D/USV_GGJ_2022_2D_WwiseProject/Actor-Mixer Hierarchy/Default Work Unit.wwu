@@ -116,15 +116,7 @@
 				</Folder>
 				<Folder Name="Casual_Music" ID="{A2DF3FD0-2EF8-4F96-B459-A2DD960E9038}" ShortID="614678730">
 					<ChildrenList>
-						<Sound Name="casualLevel_Music_1d" ID="{F33F4DC8-C15B-49F7-8999-C7493746DEA0}" ShortID="451717661">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-7</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="casual_music" ID="{1C6B7680-32F2-4F08-A190-B2BA3AC7B080}" ShortID="815866505">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
@@ -134,49 +126,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="casualLevel_Music_1d" ID="{05A1B88E-40B8-441C-A84D-D4E114FF4474}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
+								<AudioFileSource Name="casual_music" ID="{A0BE771E-4E0C-4985-94B4-AE67A528A186}">
 									<Language>SFX</Language>
-									<AudioFile>casualLevel_Music.1d.wav</AudioFile>
+									<AudioFile>casual_music.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="233224724"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="casualLevel_Music_1d_01" ID="{E367BDD8-49EF-430E-90D5-59EA5A57964E}">
-									<Language>SFX</Language>
-									<AudioFile>casualLevel_Music.1d.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="126577676"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="enemyPOOF" ID="{5F541EAF-35FF-4B8F-BE0C-CC600CC83ADE}">
-									<Language>SFX</Language>
-									<AudioFile>enemyPOOF.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="460272174"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="zombie_breath2" ID="{49BDE810-90EF-443B-9ECC-6C9EC9586863}">
-									<Language>SFX</Language>
-									<AudioFile>zombie_breath2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="341789767"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="zombie_growl2" ID="{DB4BE9B2-41E2-4111-B9BC-7CCA49DE7B81}">
-									<Language>SFX</Language>
-									<AudioFile>zombie_growl2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="461795429"/>
+										<MediaID ID="953482695"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="casualLevel_Music_1d" ID="{05A1B88E-40B8-441C-A84D-D4E114FF4474}" Platform="Linked"/>
+								<ActiveSource Name="casual_music" ID="{A0BE771E-4E0C-4985-94B4-AE67A528A186}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -418,15 +378,7 @@
 				</Folder>
 				<Folder Name="boss_music" ID="{EF838D53-34D3-49BB-B621-B3726D8E3CBD}" ShortID="823371101">
 					<ChildrenList>
-						<Sound Name="bossLevel_Music_1c" ID="{2B95C4B5-1139-4A87-B5A2-A4D010476D32}" ShortID="226342412">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="boss_music" ID="{D7526B7E-3B88-4C3C-894F-BCF089B7BCB1}" ShortID="1072650883">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
@@ -436,118 +388,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="bossLevel_Music_1c" ID="{53809316-BD7D-45E0-AC40-03141ED4691C}">
-									<PropertyList>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
+								<AudioFileSource Name="boss_music" ID="{DF4546DF-B0A7-41F1-ADBB-BC5C66DFA789}">
 									<Language>SFX</Language>
-									<AudioFile>bossLevel_Music.1c.wav</AudioFile>
+									<AudioFile>boss_music.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="373276005"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="bossLevel_Music_1c_01" ID="{B65A5B41-A8D3-44FC-90D6-ED4A1E36EAF5}">
-									<Language>SFX</Language>
-									<AudioFile>bossLevel_Music.1c.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="543542096"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="underling_SFX2" ID="{18C93DDA-7C4C-4C64-9E0F-311D1B06768D}">
-									<Language>SFX</Language>
-									<AudioFile>underling_SFX2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="278745390"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="underling_SFX3" ID="{0820B098-DAAF-41B3-A352-DE77681AFF60}">
-									<Language>SFX</Language>
-									<AudioFile>underling_SFX3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="868232731"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="underling_SFX4" ID="{5EABE1F4-F670-4502-90A7-46F7DF088002}">
-									<Language>SFX</Language>
-									<AudioFile>underling_SFX4.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="678982283"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="underling_SFX5" ID="{858C5652-9296-4DBD-8FF6-8FC17C0E3E3B}">
-									<Language>SFX</Language>
-									<AudioFile>underling_SFX5.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="627239794"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="Grunt_SFX" ID="{9E48FADF-127A-4DCA-BCC5-D2D03E2E999D}">
-									<Language>SFX</Language>
-									<AudioFile>Grunt_SFX.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="285196426"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="zombie_breathe2" ID="{276F52C5-EF16-4997-915E-DCDBD57EE0EB}">
-									<Language>SFX</Language>
-									<AudioFile>zombie_breathe2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1040031031"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="zombie_growl2" ID="{70711F4A-357C-430F-8FA6-A1B70EA9AEC1}">
-									<Language>SFX</Language>
-									<AudioFile>zombie_growl2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="461795429"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="bossLevel_Music_1c_02" ID="{71C99F73-7245-493A-8D9B-0232062B5DF3}">
-									<Language>SFX</Language>
-									<AudioFile>bossLevel_Music.1c.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="543542096"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="casualLevel_Music_1d" ID="{173142B8-3065-48E1-AB0A-E61A4B983D89}">
-									<Language>SFX</Language>
-									<AudioFile>casualLevel_Music.1d.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="126577676"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="bossLevel_Music_1c_03" ID="{48C14266-8D1E-45BA-BDBC-8BA4C51ADC44}">
-									<Language>SFX</Language>
-									<AudioFile>bossLevel_Music.1c.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="543542096"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="casualLevel_Music_1d_01" ID="{751DC09F-E2FC-4FD8-B051-BAA205E5FA87}">
-									<Language>SFX</Language>
-									<AudioFile>casualLevel_Music.1d.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="126577676"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="enemyPOOF" ID="{6A678F25-AAAC-4379-9C10-D8235896F2AA}">
-									<Language>SFX</Language>
-									<AudioFile>enemyPOOF.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="460272174"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="zombie_breath2" ID="{D2C971FE-9543-40C1-B0C3-3CFA04C58D01}">
-									<Language>SFX</Language>
-									<AudioFile>zombie_breath2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="341789767"/>
+										<MediaID ID="56755165"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="bossLevel_Music_1c" ID="{53809316-BD7D-45E0-AC40-03141ED4691C}" Platform="Linked"/>
+								<ActiveSource Name="boss_music" ID="{DF4546DF-B0A7-41F1-ADBB-BC5C66DFA789}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
