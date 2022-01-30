@@ -207,7 +207,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickPosition: {x: 0, y: 0, z: 0}
   projectile: {fileID: 4422346792414359217, guid: 1ab501954947d4b92ab1cad2c847d0fb, type: 3}
-  playerCamera: {fileID: 0}
   playerShoot:
     idInternal: 0
     valueGuidInternal: 
@@ -243,7 +242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 606f4b4fde830ed4297045da3ed5cdd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
   currentHealth: 0
 --- !u!50 &-1925510469508902077
 Rigidbody2D:
@@ -265,7 +263,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &-2313391923069682315
 MonoBehaviour:
   m_ObjectHideFlags: 0

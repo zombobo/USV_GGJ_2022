@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] int maxHealth = 100;
+    //[SerializeField] int maxHealth = 100;
     public int currentHealth;
 
     Rigidbody2D _rigidbody2D;
@@ -27,6 +27,6 @@ public class Player : MonoBehaviour
     internal void ResetToStart()
     {
         _rigidbody2D.position = _startPosition;
-        SceneManager.LoadScene("Scene1");
+        SceneManager.LoadScene("Office");
     }
 }
