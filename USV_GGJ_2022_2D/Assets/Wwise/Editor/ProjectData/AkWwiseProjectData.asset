@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 68d51ae0f00d60489ded1ba467128af6
     GuidInternal: 
-    m_lastTime: -8585580284117156275
+    m_lastTime: -8585580251114775808
     List:
     - name: Main
       guid: 0004f707e700324b908bcbac84d3a4d3
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f2c8f44034ce474b8e91ec692ca93274
     GuidInternal: 
-    m_lastTime: -8585580284128587986
+    m_lastTime: -8585580251134775808
     List:
     - name: Play_bossLevel_Music
       guid: 02bdf88143f83f4ab931609b42603ebc
@@ -130,6 +130,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 105.6
       minDuration: 105.6
+    - name: Play_elevator_music
+      guid: 9181f1b5cec61d488e9badc51327c473
+      id: 3165054544
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f2c8f44034ce474b8e91ec692ca93274
+      - ElementName: Play_elevator_music
+        ObjectType: 3
+        guid: 9181f1b5cec61d488e9badc51327c473
+      Path: Events\Default Work Unit\Play_elevator_music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_enemyPOOF
       guid: fff6c677eef1534abd27e8409fbb3882
       id: 1408360690
