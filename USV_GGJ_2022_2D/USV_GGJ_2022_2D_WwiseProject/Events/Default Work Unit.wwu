@@ -14,6 +14,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Menu_music" ID="{2B780843-12F4-4DC7-A23D-C320119BD9E1}">
+					<ChildrenList>
+						<Action Name="" ID="{C161AD69-67A1-4C38-BED4-4F134D05E23D}" ShortID="481675235">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_music" ID="{7C6D40BF-1F18-4808-AE8F-5EEBB32ED5CD}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_casualLevel_Music" ID="{3588AE31-65B8-49F4-B5A0-B625B74E544E}">
+					<ChildrenList>
+						<Action Name="" ID="{7D77FE5E-E492-46F7-A156-A5DF9DBE807D}" ShortID="932678460">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="casualLevel_Music_1d" ID="{F33F4DC8-C15B-49F7-8999-C7493746DEA0}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bossLevel_Music" ID="{81F8BD02-F843-4A3F-B931-609B42603EBC}">
+					<ChildrenList>
+						<Action Name="" ID="{6956D8D4-1A19-4CAF-AF51-A70790079D6E}" ShortID="170688501">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bossLevel_Music_1c" ID="{2B95C4B5-1139-4A87-B5A2-A4D010476D32}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

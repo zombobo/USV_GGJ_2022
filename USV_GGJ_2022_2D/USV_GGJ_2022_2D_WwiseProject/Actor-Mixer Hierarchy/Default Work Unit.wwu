@@ -3,9 +3,16 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="New Virtual Folder" ID="{29B2B215-9716-4891-A35A-90F18103C8D1}" ShortID="484669710">
+				<Folder Name="Player_SFX" ID="{29B2B215-9716-4891-A35A-90F18103C8D1}" ShortID="484669710">
 					<ChildrenList>
-						<Sound Name="zombie_breath2" ID="{8D89BC9D-2E22-4F60-900F-5DEB8C803753}" ShortID="272917605">
+						<RandomSequenceContainer Name="Player_SFX" ID="{F5BDDD95-B198-4759-9834-DCACBAF9819A}" ShortID="820980183">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
@@ -15,22 +22,561 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="zombie_breath2" ID="{D16E0FD5-D504-41A6-A91A-BCE3FCD533C2}">
+								<Sound Name="zombie_breath2" ID="{8D89BC9D-2E22-4F60-900F-5DEB8C803753}" ShortID="272917605">
 									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0.232190029895219"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.232190029895219"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7047EA6E-0F40-4652-8928-C44FBBFE4A41}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="278"/>
+															<Property Name="Min" Type="Real64" Value="-278"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="zombie_breath2" ID="{D16E0FD5-D504-41A6-A91A-BCE3FCD533C2}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.111451214349705"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.22596335784676"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.278628035874263"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.22902428699411"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>zombie_breath2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="615938107"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="zombie_breath2" ID="{D16E0FD5-D504-41A6-A91A-BCE3FCD533C2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="zombie_growl2" ID="{A5FD1B99-BD42-4443-B7D4-3351CE245128}" ShortID="90278447">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="zombie_growl2" ID="{0E553FE4-A33C-4CF9-984B-0B5BE2C0DC83}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.436517256203012"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.218258628101506"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.66712441464767"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>zombie_growl2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157262434"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="zombie_growl2" ID="{0E553FE4-A33C-4CF9-984B-0B5BE2C0DC83}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Casual_Music" ID="{A2DF3FD0-2EF8-4F96-B459-A2DD960E9038}" ShortID="614678730">
+					<ChildrenList>
+						<Sound Name="casualLevel_Music_1d" ID="{F33F4DC8-C15B-49F7-8999-C7493746DEA0}" ShortID="451717661">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="casualLevel_Music_1d" ID="{05A1B88E-40B8-441C-A84D-D4E114FF4474}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>casualLevel_Music.1d.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="233224724"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="casualLevel_Music_1d_01" ID="{E367BDD8-49EF-430E-90D5-59EA5A57964E}">
+									<Language>SFX</Language>
+									<AudioFile>casualLevel_Music.1d.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="126577676"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="enemyPOOF" ID="{5F541EAF-35FF-4B8F-BE0C-CC600CC83ADE}">
+									<Language>SFX</Language>
+									<AudioFile>enemyPOOF.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="460272174"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="zombie_breath2" ID="{49BDE810-90EF-443B-9ECC-6C9EC9586863}">
 									<Language>SFX</Language>
 									<AudioFile>zombie_breath2.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="615938107"/>
+										<MediaID ID="341789767"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="zombie_growl2" ID="{DB4BE9B2-41E2-4111-B9BC-7CCA49DE7B81}">
+									<Language>SFX</Language>
+									<AudioFile>zombie_growl2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="461795429"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="zombie_breath2" ID="{D16E0FD5-D504-41A6-A91A-BCE3FCD533C2}" Platform="Linked"/>
+								<ActiveSource Name="casualLevel_Music_1d" ID="{05A1B88E-40B8-441C-A84D-D4E114FF4474}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Underling_SFX" ID="{A0284965-3150-4D78-B14D-1997842A1141}" ShortID="403348379">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Underling_SFX" ID="{C30F4E9B-CBF2-4102-A561-79D5F0656632}" ShortID="1010438179">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E5B5B3A9-1B7F-4D5D-9457-90FB91101A79}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+													<Property Name="Min" Type="Real64" Value="-278"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="underling_SFX2" ID="{F3456E39-2A4E-4E72-9718-8F368C59CE44}" ShortID="645403345">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="underling_SFX2" ID="{9E41AE65-7628-449B-99E3-AAA8F44F718E}">
+											<Language>SFX</Language>
+											<AudioFile>underling_SFX2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="164304964"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="underling_SFX2" ID="{9E41AE65-7628-449B-99E3-AAA8F44F718E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="underling_SFX3" ID="{854494BE-FBD9-48C1-9C5A-57FFCE7B6CC1}" ShortID="850836556">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="underling_SFX3" ID="{D767DED9-5024-424D-95B4-AFFE057953C4}">
+											<Language>SFX</Language>
+											<AudioFile>underling_SFX3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="624292003"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="underling_SFX3" ID="{D767DED9-5024-424D-95B4-AFFE057953C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="underling_SFX4" ID="{850D362C-4654-4FAD-8092-75688803678D}" ShortID="47219236">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="underling_SFX4" ID="{A065A729-7395-43B2-838D-3D103D29F76E}">
+											<Language>SFX</Language>
+											<AudioFile>underling_SFX4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="268437847"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="underling_SFX4" ID="{A065A729-7395-43B2-838D-3D103D29F76E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="underling_SFX5" ID="{9E045AA0-B552-417E-B871-05F4A2DBCD76}" ShortID="558860454">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="underling_SFX5" ID="{348EF1CE-2075-4602-96C3-91B04960CF54}">
+											<Language>SFX</Language>
+											<AudioFile>underling_SFX5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="571680982"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="underling_SFX5" ID="{348EF1CE-2075-4602-96C3-91B04960CF54}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Grunt_SFX" ID="{3E2AC621-6891-434B-BDB7-9068E0BD4B30}" ShortID="855236810">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Grunt_SFX" ID="{175D9CAE-D712-42AA-898E-BC647D7F4397}" ShortID="43697765">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grunt_SFX" ID="{D34013CE-4F42-43D6-B3A6-5923A1C0A3D2}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Grunt_SFX.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="988431473"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="underling_SFX2" ID="{760E84DF-4378-46FC-B88C-00484F14E398}">
+											<Language>SFX</Language>
+											<AudioFile>underling_SFX2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="278745390"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="underling_SFX3" ID="{FC8464EF-BEDE-4CBA-B389-DA9B1A717658}">
+											<Language>SFX</Language>
+											<AudioFile>underling_SFX3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="868232731"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="underling_SFX4" ID="{F38A4CD3-1D15-4735-BB75-7D93AD52E5D0}">
+											<Language>SFX</Language>
+											<AudioFile>underling_SFX4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="678982283"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="underling_SFX5" ID="{241B657D-B6D6-40FF-B1A1-CE036E548046}">
+											<Language>SFX</Language>
+											<AudioFile>underling_SFX5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="627239794"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Grunt_SFX" ID="{D34013CE-4F42-43D6-B3A6-5923A1C0A3D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemy_Death" ID="{A8E82EC2-E104-4005-869F-91803C0CB479}" ShortID="568200707">
+					<ChildrenList>
+						<Sound Name="enemyPOOF" ID="{4E733B19-842C-4539-93D2-DE3A65AD4DE2}" ShortID="461899017">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enemyPOOF" ID="{31D36B78-3919-43F7-9B8F-5039E7248EA9}">
+									<Language>SFX</Language>
+									<AudioFile>enemyPOOF.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="529537186"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="zombie_breath2" ID="{B9F8D627-E407-45E9-BB0C-D886B4663960}">
+									<Language>SFX</Language>
+									<AudioFile>zombie_breath2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="137425557"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="zombie_growl2" ID="{D89ED73E-47D0-4060-9265-6B13342BD33E}">
+									<Language>SFX</Language>
+									<AudioFile>zombie_growl2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="846963329"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="enemyPOOF" ID="{31D36B78-3919-43F7-9B8F-5039E7248EA9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="boss_music" ID="{EF838D53-34D3-49BB-B621-B3726D8E3CBD}" ShortID="823371101">
+					<ChildrenList>
+						<Sound Name="bossLevel_Music_1c" ID="{2B95C4B5-1139-4A87-B5A2-A4D010476D32}" ShortID="226342412">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bossLevel_Music_1c" ID="{53809316-BD7D-45E0-AC40-03141ED4691C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>bossLevel_Music.1c.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="373276005"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="bossLevel_Music_1c_01" ID="{B65A5B41-A8D3-44FC-90D6-ED4A1E36EAF5}">
+									<Language>SFX</Language>
+									<AudioFile>bossLevel_Music.1c.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="543542096"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="underling_SFX2" ID="{18C93DDA-7C4C-4C64-9E0F-311D1B06768D}">
+									<Language>SFX</Language>
+									<AudioFile>underling_SFX2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="278745390"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="underling_SFX3" ID="{0820B098-DAAF-41B3-A352-DE77681AFF60}">
+									<Language>SFX</Language>
+									<AudioFile>underling_SFX3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="868232731"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="underling_SFX4" ID="{5EABE1F4-F670-4502-90A7-46F7DF088002}">
+									<Language>SFX</Language>
+									<AudioFile>underling_SFX4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="678982283"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="underling_SFX5" ID="{858C5652-9296-4DBD-8FF6-8FC17C0E3E3B}">
+									<Language>SFX</Language>
+									<AudioFile>underling_SFX5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="627239794"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Grunt_SFX" ID="{9E48FADF-127A-4DCA-BCC5-D2D03E2E999D}">
+									<Language>SFX</Language>
+									<AudioFile>Grunt_SFX.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="285196426"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="zombie_breathe2" ID="{276F52C5-EF16-4997-915E-DCDBD57EE0EB}">
+									<Language>SFX</Language>
+									<AudioFile>zombie_breathe2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040031031"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="zombie_growl2" ID="{70711F4A-357C-430F-8FA6-A1B70EA9AEC1}">
+									<Language>SFX</Language>
+									<AudioFile>zombie_growl2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="461795429"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="bossLevel_Music_1c_02" ID="{71C99F73-7245-493A-8D9B-0232062B5DF3}">
+									<Language>SFX</Language>
+									<AudioFile>bossLevel_Music.1c.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="543542096"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="casualLevel_Music_1d" ID="{173142B8-3065-48E1-AB0A-E61A4B983D89}">
+									<Language>SFX</Language>
+									<AudioFile>casualLevel_Music.1d.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="126577676"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="bossLevel_Music_1c_03" ID="{48C14266-8D1E-45BA-BDBC-8BA4C51ADC44}">
+									<Language>SFX</Language>
+									<AudioFile>bossLevel_Music.1c.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="543542096"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="casualLevel_Music_1d_01" ID="{751DC09F-E2FC-4FD8-B051-BAA205E5FA87}">
+									<Language>SFX</Language>
+									<AudioFile>casualLevel_Music.1d.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="126577676"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="enemyPOOF" ID="{6A678F25-AAAC-4379-9C10-D8235896F2AA}">
+									<Language>SFX</Language>
+									<AudioFile>enemyPOOF.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="460272174"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="zombie_breath2" ID="{D2C971FE-9543-40C1-B0C3-3CFA04C58D01}">
+									<Language>SFX</Language>
+									<AudioFile>zombie_breath2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="341789767"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="bossLevel_Music_1c" ID="{53809316-BD7D-45E0-AC40-03141ED4691C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu_Music" ID="{F9E7E37D-57C7-437F-ACB8-9122AA81B446}" ShortID="950316814">
+					<ChildrenList>
+						<Sound Name="Menu_music" ID="{7C6D40BF-1F18-4808-AE8F-5EEBB32ED5CD}" ShortID="659407576">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Menu_music" ID="{F0B94B88-5F9F-49EB-B8DC-E07A08DC409F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0555716353111433"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0277858176555732"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Menu_music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="181517514"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Menu_music" ID="{F0B94B88-5F9F-49EB-B8DC-E07A08DC409F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
