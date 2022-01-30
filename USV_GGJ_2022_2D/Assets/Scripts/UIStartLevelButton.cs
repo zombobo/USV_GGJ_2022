@@ -12,4 +12,10 @@ public class UIStartLevelButton : MonoBehaviour
     {
         SceneManager.LoadScene(_levelName);
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quit");
+        Application.Quit();
+    }
 }
