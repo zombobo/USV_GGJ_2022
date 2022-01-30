@@ -4,28 +4,29 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public GameObject projectile;
+    
     [SerializeField]
-    int projectileSpeed;
-
-     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector3 clickPosition;
+    public GameObject projectile;
+    public Camera playerCamera;
+    
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerPosition = gameObject.transform.position; 
-        if (Input.GetButtonDown("Fire2")) {
-            float step = projectileSpeed * Time.deltaTime;
+        Transform playerTform = this.transform;
+        Vector3 playerPos = this.transform.position;
 
-            Vector3 clickPosition = Input.mousePosition;
-            Instantiate(projectile);
-            projectile.transform.position = playerPosition;
-            projectile.transform.position = Vector3.MoveTowards(transform.position, clickPosition, step);
-            }
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            Vector3 moveDr = (playerCamera.ScreenToWorldPoint(Input.mousePosition) - transform.position);
+            moveDr.z = 0;
+            
+
+            Instantiate(projectile, playerPos, Quaternion.identity, playerTform).GetComponent<LaunchMe>().clickPos = moveDr.normalized;
+            //Debug.Log(Input.mousePosition);
+            Debug.Log((playerCamera.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized); 
         }
- }
+    }
+}
