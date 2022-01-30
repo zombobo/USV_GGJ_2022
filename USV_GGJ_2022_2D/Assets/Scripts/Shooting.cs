@@ -27,13 +27,8 @@ public class Shooting : MonoBehaviour
             
 
             Instantiate(projectile, playerPos, Quaternion.identity, playerTform).GetComponent<LaunchMe>().clickPos = moveDr.normalized;
-<<<<<<< Updated upstream
-            //Debug.Log(Input.mousePosition);
-            Debug.Log((playerCamera.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized);
 
             playerShoot.Post(gameObject);
-=======
->>>>>>> Stashed changes
         }
     }
 }
