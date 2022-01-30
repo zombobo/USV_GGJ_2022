@@ -1,19 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class UILivesText : MonoBehaviour
 {
-    private TextMeshProUGUI tmproText;
+    public Slider slider;
 
-    private void Awake()
+    public void SetMaxHealth(int health)
     {
-        tmproText = GetComponent<TextMeshProUGUI>();
+        slider.maxValue = health;
+        slider.value = health;
     }
-    // Update is called once per frame
-    void Update()
+    void SetHealth(int health)
     {
-        tmproText.text = GameManager.Instance.Lives.ToString();
+        slider.value = health;
     }
 }
