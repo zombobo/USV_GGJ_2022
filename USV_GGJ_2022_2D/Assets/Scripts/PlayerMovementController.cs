@@ -21,7 +21,7 @@ public class PlayerMovementController : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
         vSpeed = vertical;
 
-        Vector3 Movement = new Vector3(horizontal, vertical).normalized;
+        Vector3 Movement = new Vector3(horizontal, vertical);
       
 
         transform.position += Movement * Time.deltaTime * moveSpeed;
