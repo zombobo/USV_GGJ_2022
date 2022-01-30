@@ -22,6 +22,6 @@ public class Vomit : MonoBehaviour
             enemy.TakeDamage(damage);
         }
 
-        Destroy(gameObject);
+        Destroy(this);
     }
 }
