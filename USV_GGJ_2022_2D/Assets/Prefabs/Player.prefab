@@ -99,6 +99,8 @@ GameObject:
   - component: {fileID: -1925510469508902077}
   - component: {fileID: -2313391923069682315}
   - component: {fileID: -6676183691537511779}
+  - component: {fileID: 1715890207}
+  - component: {fileID: 1715890208}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -258,7 +260,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -277,7 +279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  animator: {fileID: 0}
+  animator: {fileID: 7895518050858267233}
 --- !u!70 &-6676183691537511779
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -294,3 +296,28 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.4375, y: 0.5625}
   m_Direction: 0
+--- !u!114 &1715890207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895518050858267234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eb0386959484b5d8ea0bb86a7dd884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 4
+--- !u!114 &1715890208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895518050858267234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a45b0c429ba14e84e9909c5e943cba56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
