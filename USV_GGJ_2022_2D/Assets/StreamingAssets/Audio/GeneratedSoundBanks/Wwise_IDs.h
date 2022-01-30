@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_ENEMYPOOF = 1408360690U;
         static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
         static const AkUniqueID PLAY_PLAYER_SFX = 1581497221U;
+        static const AkUniqueID PLAY_PLAYERSHOOT = 3169510350U;
     } // namespace EVENTS
 
     namespace BANKS

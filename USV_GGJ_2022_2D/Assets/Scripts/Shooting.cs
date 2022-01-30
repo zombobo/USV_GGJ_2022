@@ -9,7 +9,9 @@ public class Shooting : MonoBehaviour
     public Vector3 clickPosition;
     public GameObject projectile;
     public Camera playerCamera;
-    
+
+    [Header("Wwise Events")]
+    public AK.Wwise.Event playerShoot;
 
     // Update is called once per frame
     void Update()
@@ -26,7 +28,9 @@ public class Shooting : MonoBehaviour
 
             Instantiate(projectile, playerPos, Quaternion.identity, playerTform).GetComponent<LaunchMe>().clickPos = moveDr.normalized;
             //Debug.Log(Input.mousePosition);
-            Debug.Log((playerCamera.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized); 
+            Debug.Log((playerCamera.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized);
+
+            playerShoot.Post(gameObject);
         }
     }
 }

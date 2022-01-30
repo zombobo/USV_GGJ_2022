@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2176073771">
+		<SoundBank Id="3161908922" Language="SFX" Hash="912519555">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -49,7 +49,7 @@
 					<IncludedMemoryFiles>
 						<File Id="181517514" Language="SFX">
 							<ShortName>Menu_music.wav</ShortName>
-							<Path>SFX/Menu_music_0ECAA121.wem</Path>
+							<Path>SFX/Menu_music_480D60A8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -62,6 +62,22 @@
 						<File Id="615938107" Language="SFX">
 							<ShortName>zombie_breath2.wav</ShortName>
 							<Path>SFX/zombie_breath2_EA70C0F9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3169510350" Name="Play_PlayerShoot" ObjectPath="\Events\Default Work Unit\Play_PlayerShoot" DurationType="OneShot" DurationMin="0.094513" DurationMax="0.119365">
+					<IncludedMemoryFiles>
+						<File Id="222216387" Language="SFX">
+							<ShortName>shoot2.wav</ShortName>
+							<Path>SFX/shoot2_17D185B0.wem</Path>
+						</File>
+						<File Id="741092797" Language="SFX">
+							<ShortName>shoot3.wav</ShortName>
+							<Path>SFX/shoot3_FDF1635D.wem</Path>
+						</File>
+						<File Id="754728183" Language="SFX">
+							<ShortName>shoot1.wav</ShortName>
+							<Path>SFX/shoot1_FF42CF5D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

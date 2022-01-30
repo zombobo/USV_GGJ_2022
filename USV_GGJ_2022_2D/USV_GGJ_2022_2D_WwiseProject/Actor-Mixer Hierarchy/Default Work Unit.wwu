@@ -592,6 +592,146 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="PlayerShoot" ID="{490937FE-B9C3-4182-BAE1-CEDB44A001F4}" ShortID="911545919">
+					<ChildrenList>
+						<RandomSequenceContainer Name="PlayerShoot" ID="{8529B334-5010-4229-B0F0-F4D9E91BFFDE}" ShortID="118450324">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{204B73A2-65C3-4253-A7EC-874FF3355A65}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="shoot1" ID="{61EF2C51-6036-47CA-82EF-60F9775918B9}" ShortID="485379060">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shoot1" ID="{A5A3D1CF-BBE2-4AAA-A055-F848EA5ECFB8}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.018140589569161"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.014875283446712"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.122630385487528"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>shoot1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="754728183"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="shoot1" ID="{A5A3D1CF-BBE2-4AAA-A055-F848EA5ECFB8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shoot2" ID="{A845D386-E025-40E5-9AEC-B7671881DEB1}" ShortID="529417427">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shoot2" ID="{DA954C09-8570-4ED3-B173-698A49F3D3E3}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0235827664399093"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00580498866213152"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.117551020408163"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>shoot2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="222216387"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="shoot2" ID="{DA954C09-8570-4ED3-B173-698A49F3D3E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shoot3" ID="{62A4D8E9-7025-456A-8822-9DEFD25B374E}" ShortID="444659578">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{344984D4-5A59-492B-A190-A6675041D514}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A36E89F-2908-4D36-9731-175295983DBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shoot3" ID="{C39E588F-2DC0-4377-A164-CF94FF183379}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0667573696145125"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.02140589569161"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0341043083900227"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.153469387755102"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>shoot3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="741092797"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="shoot3" ID="{C39E588F-2DC0-4377-A164-CF94FF183379}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

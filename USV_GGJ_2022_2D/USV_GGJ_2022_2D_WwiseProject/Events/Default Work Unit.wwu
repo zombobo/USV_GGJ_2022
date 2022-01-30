@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PlayerShoot" ID="{1FDFB9FD-4845-4EA4-A220-39EFC4F7E737}">
+					<ChildrenList>
+						<Action Name="" ID="{CFC133E0-1FB4-4DEE-9DF4-446BF7D5EB47}" ShortID="896159696">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerShoot" ID="{8529B334-5010-4229-B0F0-F4D9E91BFFDE}" WorkUnitID="{A3B2DF49-3C91-4F3E-A133-95FA7EEABAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
