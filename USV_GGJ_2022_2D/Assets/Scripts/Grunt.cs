@@ -5,17 +5,17 @@ using UnityEngine.UI;
 
 public class Grunt : MonoBehaviour
 {
-    public Transform player;
     public GameObject projectile;
-
-    int moveSpeed = 1;
-    int maxShootDist = 5;
-    int minFollowDist = 2;
-    float shootWaitTime = 2.0f;
-    float shootTimer = 0.0f;
+    Transform player;
+    public int moveSpeed = 1;
+    public int maxShootDist = 5;
+    public int minFollowDist = 2;
+    public float shootWaitTime = 2.0f;
+    public float shootTimer = 0.0f;
 
     void Awake()
     {
+        player = FindObjectOfType<Player>().transform;
     }
 
     void Update()
