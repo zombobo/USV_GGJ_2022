@@ -1,6 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1659934393	Play_zombie_breath			\Default Work Unit\Play_zombie_breath	
+	1581497221	Play_Player_SFX			\Default Work Unit\Play_Player_SFX	
+	3005263932	Play_Grunt_SFX			\Default Work Unit\Play_Grunt_SFX	
+	4288820973	Play_casualLevel			\Default Work Unit\Play_casualLevel	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	615938107	zombie_breath2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\zombie_breath2_356ABC16.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Virtual Folder\zombie_breath2		1091192
+	157262434	zombie_growl2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\zombie_growl2_03651007.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_SFX\Player_SFX\zombie_growl2		255644
+	164304964	underling_SFX2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\underling_SFX2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Underling_SFX\Underling_SFX\underling_SFX2		247712
+	233224724	casualLevel_Music_1d	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\casualLevel_Music.1d_81238AE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Casual_Music\casualLevel_Music_1d		18627984
+	268437847	underling_SFX4	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\underling_SFX4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Underling_SFX\Underling_SFX\underling_SFX4		247712
+	571680982	underling_SFX5	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\underling_SFX5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Underling_SFX\Underling_SFX\underling_SFX5		247712
+	615938107	zombie_breath2	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\zombie_breath2_5044C884.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_SFX\Player_SFX\zombie_breath2		344116
+	624292003	underling_SFX3	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\underling_SFX3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Underling_SFX\Underling_SFX\underling_SFX3		247712
+	988431473	Grunt_SFX	Y:\Documents\GitHub\USV_GGJ_2022\USV_GGJ_2022_2D\USV_GGJ_2022_2D_WwiseProject\.cache\Mac\SFX\Grunt_SFX_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\Underling_SFX\Grunt_SFX\Grunt_SFX		2016596
 
