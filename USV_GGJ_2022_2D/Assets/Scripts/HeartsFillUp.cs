@@ -18,7 +18,7 @@ public class HeartsFillUp : MonoBehaviour
         health = GetComponent<Health>().CurrentHealth;
         for (int i = 0; i < heartMeter.Length; i++ )
         {
-            if (i > health)
+            if (i < health)
             {
                 heartMeter[i].sprite = fullHeart;
             }
@@ -35,7 +35,10 @@ public class HeartsFillUp : MonoBehaviour
                 heartMeter[i].enabled = false;
             }
 
-            
+            if (health == 0)
+            {
+                //somehow kill all images in array
+            }
         }
     }
 }
