@@ -5,6 +5,8 @@ public class Kills : MonoBehaviour
 {
      public static int KillsCollected;
 
+    public int CurrentHealth { get; private set; }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         var shooting = collision.GetComponent<Enemy>();
