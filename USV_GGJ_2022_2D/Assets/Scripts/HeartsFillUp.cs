@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HEarts : MonoBehaviour
+public class HeartsFillUp : MonoBehaviour
 {
     public int visibleHearts = 1;
     // public int health = 1; 
