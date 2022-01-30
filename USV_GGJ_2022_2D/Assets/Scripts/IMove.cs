@@ -1,4 +1,4 @@
 public interface IMove
 {
-    float Speed { get; }
+    float vSpeed { get; }
 }

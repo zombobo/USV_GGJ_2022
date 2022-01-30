@@ -18,7 +18,7 @@ public class CharacterAnimation : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        float speed = mover.Speed;
+        float speed = mover.vSpeed;
         animator.SetFloat("Speed", Mathf.Abs(speed));
     }
 }

@@ -245,12 +245,12 @@ GameObject:
   m_Component:
   - component: {fileID: 829894120}
   - component: {fileID: 829894119}
+  - component: {fileID: 829894124}
   - component: {fileID: 829894118}
   - component: {fileID: 829894121}
-  - component: {fileID: 829894124}
-  - component: {fileID: 829894123}
   - component: {fileID: 829894122}
   - component: {fileID: 829894125}
+  - component: {fileID: 829894123}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -393,8 +393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dac1b7fbbd5d310488c58b613b5b039b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftFoot: {fileID: 937535210}
-  rightFoot: {fileID: 1905736052}
+  leftFoot: {fileID: 0}
+  rightFoot: {fileID: 0}
   maxDistance: 0
   layerMask:
     serializedVersion: 2
@@ -412,7 +412,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  jumpForce: 400
 --- !u!114 &829894125
 MonoBehaviour:
   m_ObjectHideFlags: 0
